@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lightGray: #f3f3f3;
+    --BlueColor: #5758e0;
+    --textColor: #999999;
+    --whiteColor: #ffffff;
+    --lightBlack: #232323;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+section {
+    padding: 4.68rem 0;
+    background-color: var(--lightGray);
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+@media(min-width: 768px) {
+    h3 {
+        font-size: 2.4rem;
+    }
+}
+
+h4 {
+    line-height: 2;
+}
+
+p {
+    color: var(--textColor);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--textColor);
+    max-width: 34rem;
+}
+
+/*Start Header Section*/
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--BlueColor);
+    padding: 0.6rem 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--textColor);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--BlueColor);
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar {
+    transition: all .3s ease-in-out;
+}
+
+.navbar.scrolled {
+    padding: .5rem 0 !important;
+}
+
+/*End Header Section*/
+/*Start Hero Section*/
+.hero {
+    padding: 15rem 0;
+    background: url(../img/hero.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0 0 0 / .4);
+}
+
+.hero .container p {
+    color: #e5e5e5;
+    font-size: 1.1rem;
+}
+
+.learn {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+.learn::before,
+.learn::after {
+    content: "";
+    position: absolute;
+    left: -5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4.8rem;
+    height: .2rem;
+    background-color: var(--textColor);
+}
+
+.learn::after {
+    width: 0;
+    background-color: var(--whiteColor);
+    transition: all .3s ease-in-out;
+}
+
+.learn:hover::after {
+    width: 4.8rem;
+}
+
+/*End Hero Section*/
+/*Start Promotion Section*/
+.promotion i {
+    font-size: 4rem;
+    color: var(--BlueColor);
+    background: linear-gradient(var(--BlueColor), #f77991);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.promotion .card {
+    cursor: pointer;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.promotion .card:hover {
+    box-shadow: 0 1.875rem 1.875rem -1.25rem rgba(50, 50, 50, 0.3);
+}
+
+.promotion .card h5 {
+    font-size: 1.1rem;
+}
+
+.promotion .card p {
+    font-size: .9rem;
+}
+
+.inner-card {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.box:hover .inner-card {
+    opacity: 1;
+}
+
+.box:nth-of-type(1):hover .inner-card {
+    background-color: var(--BlueColor);
+}
+
+.box:nth-of-type(2):hover .inner-card {
+    background-color: #f49846;
+}
+
+.inner-card h5 {
+    font-size: .9rem;
+    line-height: 1.8;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+
+.inner-card h4 {
+    font-size: 2.4rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+/*End Promotion Section*/
+/*Start Features Section*/
+.features i {
+    font-size: 4rem;
+}
+
+/*End Features Section*/
+/*Start Video Section*/
+.video .inner-img img {
+    transition: all 2s ease-in-out;
+}
+
+.video .inner-img:hover img {
+    transform: scale(1.1);
+}
+
+.video .btn-container {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video .btn-container .video-btn {
+    width: 4.25rem;
+    height: 4.25rem;
+}
+
+@media(min-width: 768px) {
+    .video .btn-container .video-btn {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+/*End Video Section*/
+/*Start Pricing Section*/
+.pricing {
+    background-color: var(--BlueColor);
+}
+
+.pricing .card-body h5 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+.pricing .card-body h6 {
+    color: var(--BlueColor);
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.pricing .card-body h6::before {
+    content: "$";
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.pricing .card-body h6 span {
+    color: var(--textColor);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.pricing .card-body .btn-secondary {
+    background-color: var(--lightGray);
+    border-color: var(--lightGray);
+    color: #737373;
+    padding: 1rem 2.6rem;
+    transition: all .3s ease-in-out;
+}
+
+.pricing .card-body .btn-secondary:hover {
+    background: var(--BlueColor);
+    color: var(--whiteColor);
+}
+
+/*End Pricing Section*/
+/*Start Team Section*/
+.team .team-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#5758e0, #cc2952);
+    opacity: 0;
+    z-index: 1;
+    transition: all 1s ease-in-out;
+}
+
+.team .team-box .details {
+    opacity: 0;
+}
+
+.team .team-box img {
+    transition: all 1s ease-in-out;
+}
+
+.team .team-box .details {
+    transition: all .3s ease-in-out;
+}
+
+.team .team-box:hover::before {
+    opacity: .8;
+}
+
+.team .team-box:hover .details {
+    opacity: 1;
+}
+
+.team .team-box:hover img {
+    transform: scale(1.1);
+}
+
+.team .social-media,
+.team .info {
+    z-index: 2;
+}
+
+.team .details h4 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    padding-bottom: .2rem;
+}
+
+.team .details h3 {
+    color: #cccccc;
+    font-size: .9rem;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.team .accordion-item {
+    border: 0;
+}
+
+.team .accordion-button {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.team .accordion-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.team .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.team .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.team .accordion-body {
+    color: #555555;
+    font-size: .9rem;
+    line-height: 1.8;
+}
+
+.team .accordion-button::after {
+    background: url(../img/plus-lg.svg) no-repeat;
+}
+
+.team .accordion-button:not(.collapsed)::after {
+    background: url(../img/dash.svg) no-repeat;
+}
+
+/*End Team Section*/
+/*Start Testimonials Section*/
+.testimonials .carousel-item img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.testimonials .carousel-item h4 {
+    line-height: 1.8;
+    color: var(--lightBlack);
+    letter-spacing: .1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.testimonials .carousel-item h3 {
+    font-size: .75rem;
+    color: var(--textColor);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/*End Testimonials Section*/
+/*Start Contact Section*/
+.contact {
+    background-color: var(--lightBlack);
+}
+
+.contact p {
+    color: var(--textColor);
+    max-width: 31.25rem;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.contact .subscribe {
+    background-color: #808080;
+    padding: 0.625rem 2.5rem;
+    height: 3.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.contact .subscribe:hover {
+    background-color: var(--BlueColor);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control:focus::placeholder {
+    opacity: 0;
+}
+
+.contact .social-media li {
+    font-size: 1.4rem;
+    transition: all .3s ease-in-out;
+}
+
+.contact .social-media li:hover {
+    color: var(--BlueColor);
+}
+
+/*End Contact Section*/
+/*Start Footer Section*/
+footer {
+    background-color: var(--lightBlack);
+    padding: 6.5625rem 0;
+}
+
+footer p {
+    font-size: .9rem;
+    color: var(--textColor);
+}
+
+footer h2 {
+    font-size: 1.4rem;
+}
+
+footer .company-list a,
+footer .contact-list a {
+    color: var(--textColor);
+    font-size: .9rem;
+    transition: all .3s ease-in-out;
+}
+
+footer .company-list a:hover,
+footer .contact-list a:hover {
+    color: var(--whiteColor);
+}
+
+footer .form-control {
+    background-color: #f5f5f5;
+    color: #565656;
+    font-size: 1rem;
+}
+
+footer .btn {
+    background-color: var(--BlueColor);
+    color: var(--whiteColor);
+    height: 3.5rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.6rem;
+}
+
+/*End Footer Section*/
+.scroll-top {
+    right: -5rem;
+    bottom: 2rem;
+    background-color: var(--BlueColor);
+    transition: right .3s ease-in-out;
+}
+
+.scroll-top.show {
+    right: 2rem;
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

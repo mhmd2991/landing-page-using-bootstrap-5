@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Landing Page Using BootStrap 5</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar"  data-bs-offset="100">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top shadow" id="navbar">
+    <div class="container-xxl">
+      <a class="navbar-brand logo" href="#">LevelM4</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black active" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#promotion">Promotion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#video">Our Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#team">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4 text-black" aria-current="page" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-primary text-uppercase  display-4 d-none d-xl-block">buy now</a>
+      </div>
+    </div>
+  </nav>
+  <header class="hero position-relative" id="hero">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 text-center text-md-start">
+          <h1 class="text-capitalize text-white pb-4 display-4 fw-bold">promo agency</h1>
+          <p class="pb-5 fw-normal">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam.
+          </p>
+          <a href="#" class="text-uppercase position-relative text-white text-decoration-none learn">learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="promotion" id="promotion">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="text-capitalize">promotion for your business</h3>
+        <h4 class="ms-auto me-auto subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor
+          incididunt ut labore
+          et
+          dolore.</h4>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card border-0 p-4">
+              <i class="bi bi-lightbulb"></i>
+              <div class="card-body">
+                <h5 class="card-title">Creative Always</h5>
+                <p class="card-text mb-3">Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed eiusmod tempor.</p>
+                <a href="#" class="btn btn-primary text-capitalize rounded-0">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card border-0 p-4">
+              <i class="bi bi-pencil-square"></i>
+              <div class="card-body">
+                <h5 class="card-title">Express Customization</h5>
+                <p class="card-text mb-3">Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed eiusmod tempor.</p>
+                <a href="#" class="btn btn-primary text-capitalize">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card border-0 p-4">
+              <i class="bi bi-gear"></i>
+              <div class="card-body">
+                <h5 class="card-title">Premium Integrations</h5>
+                <p class="card-text mb-3">Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit, sed eiusmod tempor.</p>
+                <a href="#" class="btn btn-primary text-capitalize">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 p-0 position-relative box overflow-hidden">
+          <img src="img/01.jpg" alt="" class="img-fluid w-100">
+          <div class="inner-card position-absolute top-50 w-100 h-100">
+            <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
+              <h5 class="text-uppercase text-center text-white">branding</h5>
+              <h4 class="text-capitalize text-center text-white">creative always</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-0 position-relative box overflow-hidden">
+          <img src="img/03.jpg" alt="" class="img-fluid w-100">
+          <div class="inner-card position-absolute top-50 w-100 h-100">
+            <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
+              <h5 class="text-uppercase text-center text-white">design</h5>
+              <h4 class="text-capitalize text-center text-white">ideas & plans</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="card border-0 text-center text-md-start">
+            <i class="bi bi-lightbulb ms-md-2 "></i>
+            <div class="card-body">
+              <h5 class="card-title">Creative Always</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed eiusmod tempor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="card border-0 text-center text-md-start">
+            <i class="bi bi-pencil-square ms-md-2"></i>
+            <div class="card-body">
+              <h5 class="card-title">Express Customization</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed eiusmod tempor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="card border-0 text-center text-md-start">
+            <i class="bi bi-gear ms-md-2"></i>
+            <div class="card-body">
+              <h5 class="card-title">Premium Integrations</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed eiusmod tempor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="card border-0 text-center text-md-start">
+            <i class="bi bi-hand-index-thumb ms-md-2"></i>
+            <div class="card-body">
+              <h5 class="card-title">Real-time Editing</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed eiusmod tempor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="video" class="video">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="text-capitalize">watch video</h3>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 position-relative">
+          <div class="inner-img overflow-hidden">
+            <img src="img/background16.jpg" alt="video" class="img-fluid">
+          </div>
+          <div class="btn-container position-absolute top-50">
+            <button type="button" class="btn btn-primary video-btn rounded-circle bg-white border-white"
+              data-bs-toggle="modal" data-src="https://www.youtube.com/embed/zG4q9t1_9HE" data-bs-target="#myModal">
+              <i class="bi bi-play fs-1 text-dark"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="text-capitalize text-white">pricing tables</h3>
+      </div>
+      <div class="row mt-5 g-0">
+        <div class="col-md-6 col-lg-4">
+          <div class="card rounded-0 border-0 py-5 px-4">
+            <div class="card-body text-center">
+              <h5 class="card-title text-capitalize">classic</h5>
+              <h6 class="card-subtitle mb-2 position-relative ms-auto me-auto">20.00<span
+                  class="fst-italic">/month</span></h6>
+              <p class="card-text mb-3">Lorem ipsum dolor sit aet, in dicant tamquam adodum pri, eiusmod cum tibique
+                anti.
+              </p>
+              <a href="#" class="btn btn-secondary text-uppercase rounded-0">get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card rounded-0 border-0 py-5 px-4">
+            <div class="card-body text-center">
+              <h5 class="card-title text-capitalize">standard</h5>
+              <h6 class="card-subtitle mb-2 position-relative ms-auto me-auto">60.00<span
+                  class="fst-italic">/month</span></h6>
+              <p class="card-text mb-3">Lorem ipsum dolor sit aet, in dicant tamquam adodum pri, eiusmod cum tibique
+                anti.
+              </p>
+              <a href="#" class="btn btn-secondary text-uppercase rounded-0">get started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card rounded-0 border-0 py-5 px-4">
+            <div class="card-body text-center">
+              <h5 class="card-title text-capitalize">premium</h5>
+              <h6 class="card-subtitle mb-2 position-relative ms-auto me-auto">90.00<span
+                  class="fst-italic">/month</span></h6>
+              <p class="card-text mb-3">Lorem ipsum dolor sit aet, in dicant tamquam adodum pri, eiusmod cum tibique
+                anti.
+              </p>
+              <a href="#" class="btn btn-secondary text-uppercase rounded-0">get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="team bg-white" id="team">
+    <div class="container">
+      <div class="text-center">
+        <h3 class="text-capitalize">special team</h3>
+        <h4 class="subtitle ms-auto me-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et
+          dolore.</h4>
+      </div>
+      <div class="row mt-5 pb-4">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="team-box overflow-hidden position-relative" role="button">
+            <img src="img/face1.jpg" alt="face" class="img-fluid">
+            <div class="details">
+              <ul
+                class="social-media position-absolute top-0 w-100 list-unstyled p-3 d-flex align-items-center justify-content-end gap-3">
+                <li role="button"><i class="bi bi-twitter text-white"></i></li>
+                <li role="button"><i class="bi bi-instagram text-white"></i></li>
+                <li role="button"><i class="bi bi-youtube text-white"></i></li>
+              </ul>
+              <div class="info p-4 pb-3 position-absolute bottom-0">
+                <h4 class="text-capitalize text-white m-0 fw-light">marie jordan</h4>
+                <h3 class="text-uppercase">designer</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="team-box overflow-hidden position-relative" role="button">
+            <img src="img/face2.jpg" alt="face" class="img-fluid">
+            <div class="details">
+              <ul
+                class="social-media position-absolute top-0 w-100 list-unstyled p-3 d-flex align-items-center justify-content-end gap-3">
+                <li role="button"><i class="bi bi-twitter text-white"></i></li>
+                <li role="button"><i class="bi bi-instagram text-white"></i></li>
+                <li role="button"><i class="bi bi-youtube text-white"></i></li>
+              </ul>
+              <div class="info p-4 pb-3 position-absolute bottom-0">
+                <h4 class="text-capitalize text-white m-0 fw-light">ann brown</h4>
+                <h3 class="text-uppercase">director</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="team-box overflow-hidden position-relative" role="button">
+            <img src="img/face3.jpg" alt="face" class="img-fluid">
+            <div class="details">
+              <ul
+                class="social-media position-absolute top-0 w-100 list-unstyled p-3 d-flex align-items-center justify-content-end gap-3">
+                <li role="button"><i class="bi bi-twitter text-white"></i></li>
+                <li role="button"><i class="bi bi-instagram text-white"></i></li>
+                <li role="button"><i class="bi bi-youtube text-white"></i></li>
+              </ul>
+              <div class="info p-4 pb-3 position-absolute bottom-0">
+                <h4 class="text-capitalize text-white m-0 fw-light">james hofman</h4>
+                <h3 class="text-uppercase">manager</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="team-box overflow-hidden position-relative" role="button">
+            <img src="img/face1.jpg" alt="face" class="img-fluid">
+            <div class="details">
+              <ul
+                class="social-media position-absolute top-0 w-100 list-unstyled p-3 d-flex align-items-center justify-content-end gap-3">
+                <li role="button"><i class="bi bi-twitter text-white"></i></li>
+                <li role="button"><i class="bi bi-instagram text-white"></i></li>
+                <li role="button"><i class="bi bi-youtube text-white"></i></li>
+              </ul>
+              <div class="info p-4 pb-3 position-absolute bottom-0">
+                <h4 class="text-capitalize text-white m-0 fw-light">marie jordan</h4>
+                <h3 class="text-uppercase">designer</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 align-items-center">
+        <div class="col-md-6 pe-5">
+          <img src="img/face1.jpg" alt="" class="img-fluid shadow-lg">
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <h3 class="pb-4 text-center text-md-start">Look at things from a different angle</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Creative Direction
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body pt-3 pb-0 px-0 mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                  luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                  quam. In ut ex auctor.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Prompt Strategies
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body pt-3 pb-0 px-0 mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                  luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                  quam. In ut ex auctor.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Ideas & Plans
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body pt-3 pb-0 px-0 mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                  luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                  quam. In ut ex auctor
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div id="carouselExampleFade" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="img/face1.jpg" class="d-block img-fluid rounded-circle ms-auto me-auto mb-4" alt="...">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <p class="fst-italic text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostru exercitation ullamco laboris nisi ut aliquip
+                  ex lorem ipsum. </p>
+                <h4 class="text-capitalize text-center">marie jordan</h4>
+                <h3 class="text-uppercase text-center">designer</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1200">
+            <img src="img/face2.jpg" class="d-block img-fluid rounded-circle ms-auto me-auto mb-4" alt="...">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <p class="fst-italic text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostru exercitation ullamco laboris nisi ut aliquip
+                  ex lorem ipsum. </p>
+                <h4 class="text-capitalize text-center">ann brown</h4>
+                <h3 class="text-uppercase text-center">director</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1400">
+            <img src="img/face3.jpg" class="d-block img-fluid rounded-circle ms-auto me-auto mb-4" alt="...">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <p class="fst-italic text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostru exercitation ullamco laboris nisi ut aliquip
+                  ex lorem ipsum. </p>
+                <h4 class="text-capitalize text-center">james hofman</h4>
+                <h3 class="text-uppercase text-center">manager</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="text-center">
+      <h2 class="text-uppercase text-white">stay in touch</h2>
+      <p class="text-center ms-auto me-auto pb-5">Contact us to give life to awesome ideas or make suggestions on
+        improvements to be made.</p>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form action="#" class="d-flex align-items-center justify-content-center flex-wrap flex-md-nowrap">
+            <input type="email" placeholder="Enter Your Email" class="form-control rounded-0 p-3 border-0">
+            <button class="btn subscribe text-uppercase text-white rounded-0 mt-3 mt-md-0">subscribe</button>
+          </form>
+        </div>
+      </div>
+      <ul class=" social-media d-flex align-items-center justify-content-center list-unstyled text-white mt-4 mb-0">
+        <li class="p-3 pb-0" role="button"><i class="bi bi-twitter"></i></li>
+        <li class="p-3 pb-0" role="button"><i class="bi bi-instagram"></i></li>
+        <li class="p-3 pb-0" role="button"><i class="bi bi-youtube"></i></li>
+        <li class="p-3 pb-0" role="button"><i class="bi bi-dribbble"></i></li>
+        <li class="p-3 pb-0" role="button"><i class="bi bi-skype"></i></li>
+      </ul>
+    </div>
+  </section>
+  <section class="location p-0">
+    <div class="container-fluid px-0">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.98550671605!2d28.97193991533701!3d41.0255730263093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9e7a7777c43%3A0x4c76cf3dcc8b330b!2sGalata%20Tower!5e0!3m2!1sen!2slb!4v1680456941799!5m2!1sen!2slb"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <footer>
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 text-center text-md-start">
+          <h3 class="text-white pb-5">LevelM4</h3>
+          <ul class="social-media list-unstyled d-flex align-items-center justify-content-center justify-content-md-start gap-4 pt-5 pb-3">
+            <li class="text-white text-center" role="button"><i class="bi bi-twitter"></i></li>
+            <li class="text-white text-center" role="button"><i class="bi bi-instagram"></i></li>
+            <li class="text-white text-center" role="button"><i class="bi bi-youtube"></i></li>
+            <li class="text-white text-center" role="button"><i class="bi bi-dribbble"></i></li>
+          </ul>
+          <p class="copyright">© 2020 LevelM4 by Mobirise</p>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-4 mb-lg-0 text-center text-md-start">
+          <h2 class="text-capitalize text-white pb-4">company</h2>
+          <ul class="list-unstyled company-list">
+            <li class="pb-3"><a href="#" class="text-capitalize text-decoration-none">home</a></li>
+            <li class="pb-3"><a href="#" class="text-capitalize text-decoration-none">products</a></li>
+            <li class="pb-3"><a href="#" class="text-capitalize text-decoration-none">services</a></li>
+            <li><a href="#" class="text-capitalize text-decoration-none">pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-md-start">
+          <h2 class="text-capitalize text-white pb-4">contacts</h2>
+          <ul class="list-unstyled contact-list">
+            <li class="pb-3"><a href="#" class="text-capitalize text-decoration-none">2005 Stokes Isle 896,
+                Venaville 1310, USA</a></li>
+            <li class="pb-3"><a href="#" class="text-capitalize text-decoration-none">(+12) 345 6789</a></li>
+            <li><a href="#" class="text-capitalize text-decoration-none">support@mobirise.com</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center text-md-start">
+          <h2 class="text-capitalize text-white pb-4">newsletter</h2>
+          <form action="#" class="d-flex align-items-center">
+            <input type="email" placeholder="Enter your Email" class="form-control p-3 rounded-0 border-0">
+            <button class="btn rounded-0"><i class="bi bi-chevron-right"></i></button>
+          </form>
+          <p class="pt-3">Enter your email address for receiving valuable newsletters and insights on the industry.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>
+          <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zG4q9t1_9HE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-top position-fixed text-white p-3 rounded-2 shadow-lg" id="scroll-to-top-btn" role="button">
+    <i class="bi bi-chevron-up"></i>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
